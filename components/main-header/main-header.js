@@ -6,8 +6,8 @@ import logoImg from '@/assets/logo.png';
 import classes from './main-header.module.css';
 
 export default function MainHeader () {
-    return (
-        <>
+    return (  
+    <>
      <MainHeaderBackground/>
      <header className={classes.header}>
     <Link className={classes.logo}href="/">
@@ -27,5 +27,6 @@ export default function MainHeader () {
     </nav>
     </header>
     </>
+
     );
 }
